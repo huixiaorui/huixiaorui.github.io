@@ -177,7 +177,7 @@ a#close-notice {
   font-weight: 300;
 }
 
-a.download-btn {
+#intro-mobile .bottom-info span.download-btn {
   line-height: 4rem;
   width: 20rem;
   background: #FF4081;
@@ -658,7 +658,7 @@ section#faq-section {
   .select-dropdown {
     height: 37px;
     border: none;
-    width: 105px !important;
+    width: 135px !important;
     padding: 13px 10px !important;
     margin-top: -5px !important;
   }
@@ -894,8 +894,20 @@ section#faq-section {
 .select-dropdown {
   height: 37px;
   border: none;
-  width: 105px !important;
+  width: 135px !important;
   padding: 13px 10px !important;
   margin-top: -10px !important;
   font-size: 16px!important;
+}
+.mask {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
 }
