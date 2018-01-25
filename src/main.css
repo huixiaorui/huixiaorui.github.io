@@ -60,11 +60,8 @@ h1 a img {
 header div > a {
   color: #000;
   text-decoration:none;
-  float: right;
   font-weight: 300;
-  margin-right: 2.5rem;
-  margin-top: .7rem;
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 
 a.download {
@@ -665,10 +662,6 @@ section#faq-section {
   
   .select-dropdown .dropdown {
     width: auto !important;
-  }
-  
-  header div > a {
-    display: none;
   }
   
   .intro-desktop {
